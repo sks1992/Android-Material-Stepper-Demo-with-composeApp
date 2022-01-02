@@ -13,7 +13,7 @@ import sk.sandeep.androidmaterialstepperdemoapp.fragments.ThirdFragment
 class StepperAdapter(fm: FragmentManager?, context: Context?) :
     AbstractFragmentStepAdapter(fm!!, context!!) {
     override fun getCount(): Int {
-        return 3
+        return 4
     }
 
     override fun createStep(position: Int): Step {
